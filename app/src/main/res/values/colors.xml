@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#44000000</color>
+
+    <color name="textColor">#1b1e23</color>
+    <color name="charcoal_grey">#333b45</color>
+
+
+    <!-- bottom 버튼 -->
+    <color name="bottom_off">#3c3c3c</color>
+    <color name="bottom_on">#0091d0</color>
+    <color name="bottom_text">#ffffff</color>
+
+    <!-- Question 관련 -->
+    <!-- 특별한 경우 아니면 수정 X -->
+    <color name="quest_box">#ebebeb</color>
+    <!-- 특별한 경우 아니면 사용 X -->
+    <color name="border">#ebebeb</color>
+
+    <!-- 연자 선택 버튼 -->
+    <color name="select_box">#ffffff</color>
+    <!-- 특별한 경우 아니면 사용 X -->
+    <color name="select_border">#b8b8b8</color>
+
+    <!-- Voting 관련 -->
+    <!-- 특별한 경우 아니면 수정 X -->
+    <color name="num_off_text">#ffffff</color>
+    <color name="num_off">#b8b8b8</color>
+
+
+    <color name="num_on_text">#ffffff</color>
+    <color name="num_on">#0091d0</color>
+
+    <color name="css1">#333333</color>
+
+
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg"
+    android:id="@+id/bg"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"></LinearLayout>
+
+
+    <LinearLayout
+        android:background="@drawable/logo"
+        android:layout_width="216.5dp"
+        android:layout_height="206.5dp" />
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#203c82"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:src="@drawable/login_txt"
+            android:layout_width="144dp"
+            android:layout_height="49dp" />
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btn_yes"
+                android:id="@+id/yes"
+                android:layout_width="105dp"
+                android:layout_height="121dp">
+            </LinearLayout>
+    
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/btn_no"
+                android:id="@+id/no"
+                android:layout_width="105dp"
+                android:layout_height="121dp">
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/ll2"
+        android:orientation="vertical"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+        <EditText
+            android:id="@+id/idea"
+            android:background="#ffffff"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:textColor="#6a6f8c"
+            android:textColorHint="#ababab"
+            android:hint="아이디를 입력해 주세요."
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/password"
+            android:background="#ffffff"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:textColor="#6a6f8c"
+            android:textColorHint="#ababab"
+            android:inputType="textPassword"
+            android:hint="비밀번호를 입력해 주세요."
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:textSize="17dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="로그인"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_marginTop="25dp"
+            android:id="@+id/login"
+            android:background="#2f3f56"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" >
+        </TextView>
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:scaleType="fitEnd"
+        android:id="@+id/banner"
+        android:src="@drawable/banner_check"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+    </ImageView>
+
+
+</LinearLayout>

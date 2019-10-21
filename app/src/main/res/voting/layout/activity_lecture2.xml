@@ -1,0 +1,406 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/popup_top"></ImageView>
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/b_close"></ImageView>
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="Session I"
+                android:textStyle="bold"
+                android:textColor="#575195"
+                android:background="#d0d4e6"
+                android:textSize="23dp"></TextView>
+
+
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="이창범 (한양의대)"
+                    android:textColor="#000000"
+                    android:textSize="20dp"></TextView>
+
+                <LinearLayout
+                    android:id="@+id/btn1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/btn"
+                    android:gravity="center"
+                    android:orientation="horizontal"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dddddd"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="김창욱 (가톨릭의대)"
+                    android:textColor="#000000"
+                    android:textSize="20dp"></TextView>
+
+                <LinearLayout
+                    android:id="@+id/btn2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/btn"
+                    android:gravity="center"
+                    android:orientation="horizontal"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dddddd"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="천은미 (이화의대)"
+                    android:textColor="#000000"
+                    android:textSize="20dp"></TextView>
+
+                <LinearLayout
+                    android:id="@+id/btn3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/btn"
+                    android:gravity="center"
+                    android:orientation="horizontal"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dddddd"></LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="Session II"
+                android:textStyle="bold"
+                android:textColor="#575195"
+                android:background="#d0d4e6"
+                android:textSize="23dp"></TextView>
+
+            <LinearLayout
+                android:id="@+id/layout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="최철원 (고려의대)"
+                    android:textColor="#000000"
+                    android:textSize="20dp"></TextView>
+
+                <LinearLayout
+                    android:id="@+id/btn4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/btn"
+                    android:gravity="center"
+                    android:orientation="horizontal"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dddddd"></LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+
+                    android:text="진동찬 (가톨릭의대)"
+                    android:textColor="#000000"
+                    android:textSize="20dp"></TextView>
+
+                <LinearLayout
+                    android:id="@+id/btn5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/btn"
+                    android:gravity="center"
+                    android:orientation="horizontal"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dddddd"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="김근태 (고신의대)"
+                    android:textColor="#000000"
+                    android:textSize="20dp"></TextView>
+
+                <LinearLayout
+                    android:id="@+id/btn6"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/btn"
+                    android:gravity="center"
+                    android:orientation="horizontal"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dddddd"></LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="Session III"
+                android:textStyle="bold"
+                android:textColor="#575195"
+                android:background="#d0d4e6"
+                android:textSize="23dp"></TextView>
+
+            <LinearLayout
+                android:id="@+id/layout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="엄중식 (한림의대)"
+                    android:textColor="#000000"
+                    android:textSize="20dp"></TextView>
+
+                <LinearLayout
+                    android:id="@+id/btn7"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/btn"
+                    android:gravity="center"
+                    android:orientation="horizontal"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dddddd"></LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+
+                    android:text="이미숙 (경희의대)"
+                    android:textColor="#000000"
+                    android:textSize="20dp"></TextView>
+
+                <LinearLayout
+                    android:id="@+id/btn8"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/btn"
+                    android:gravity="center"
+                    android:orientation="horizontal"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dddddd"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="이유미 (인제의대)"
+                    android:textColor="#000000"
+                    android:textSize="20dp"></TextView>
+
+                <LinearLayout
+                    android:id="@+id/btn9"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/btn"
+                    android:gravity="center"
+                    android:orientation="horizontal"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dddddd"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="강철인 (성균관의대)"
+                    android:textColor="#000000"
+                    android:textSize="20dp"></TextView>
+
+                <LinearLayout
+                    android:id="@+id/btn10"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/btn"
+                    android:gravity="center"
+                    android:orientation="horizontal"></LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

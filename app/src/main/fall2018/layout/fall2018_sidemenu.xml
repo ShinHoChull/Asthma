@@ -1,0 +1,155 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="5" >
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="#c65e24"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/btn_home2"
+                android:id="@+id/home"
+                android:layout_width="84dp"
+                android:layout_height="36dp">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="1dp"
+                android:layout_height="116dp">
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="#f08200"
+            android:layout_width="match_parent"
+            android:layout_height="106dp">
+            <TextView
+                android:layout_marginBottom="13dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:text="등록 후 로그인을 하시면 My Page에서\n개인내역을 확인할 수 있습니다."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/btn_login2"
+                android:id="@+id/login"
+                android:layout_width="100dp"
+                android:layout_height="30dp">
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="#f08200"
+            android:layout_width="match_parent"
+            android:layout_height="110dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/fall2018_btn_myr"
+                android:id="@+id/regi"
+                android:layout_width="67.5dp"
+                android:layout_height="106dp">
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/fall2018_btn_mys"
+                android:id="@+id/scrap"
+                android:layout_width="67.5dp"
+                android:layout_height="106dp">
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/fall2018_btn_ac"
+                android:id="@+id/barcode"
+                android:layout_width="68dp"
+                android:layout_height="106dp">
+            </LinearLayout>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#2b2b2b"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.m2comm.module.AnimatedExpandableListView
+                android:background="#2b2b2b"
+                android:divider="#3f3f3f"
+                android:dividerHeight="1dp"
+                android:childDivider="#3f3f3f"
+                android:groupIndicator="@null"
+                android:id="@+id/menu_list"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </com.m2comm.module.AnimatedExpandableListView>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+
+                    android:orientation="vertical"
+                    android:background="@drawable/fall2017_btn_setting"
+                    android:id="@+id/setting"
+                    android:layout_width="76dp"
+                    android:layout_height="28dp">
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="@drawable/fall2017_btn_logout"
+                    android:id="@+id/logout"
+                    android:layout_width="100.5dp"
+                    android:layout_height="28dp">
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="2" >
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:id="@+id/close"
+            android:src="@drawable/ic_closed"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+</LinearLayout>

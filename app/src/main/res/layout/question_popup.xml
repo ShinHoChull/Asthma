@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+
+    android:orientation="vertical" >
+
+
+        <LinearLayout
+            android:layout_margin="30dp"
+            android:layout_width="fill_parent"
+            android:layout_height="400dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:background="@drawable/popup_top"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" >
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"/>
+                <TextView
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Select"
+
+                    android:textColor="#ffffff"
+                    android:layout_weight="1"
+                    android:layout_width="1dp"
+                    android:layout_height="50dp" />
+                <Button
+                    android:id="@+id/bt_close"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right|center"
+                    android:background="@drawable/b_close2" />
+            </LinearLayout>
+            <com.m2comm.module.AnimatedExpandableListView
+                android:background="#ffffff"
+                android:divider="#e3e3e3"
+                android:dividerHeight="1dp"
+                android:childDivider="#e3e3e3"
+                android:groupIndicator="@null"
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></com.m2comm.module.AnimatedExpandableListView>
+
+
+        </LinearLayout>
+
+</LinearLayout>
+

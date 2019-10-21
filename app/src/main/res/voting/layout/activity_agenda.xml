@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+    <TextView
+        android:textScaleX="0.97"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="40.5dp"
+        android:textColor="#000000"
+        android:text="AGENDA"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_gravity="center"></TextView>
+        
+        <ImageView
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/close"
+            android:src="@drawable/home_btn"
+            android:layout_width="36dp"
+            android:layout_height="36dp" />
+    </RelativeLayout>
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:paddingBottom="15dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp">
+
+
+        <WebView
+            android:id="@+id/webView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+    <com.m2comm.voting.BottomMenu
+        android:id="@+id/bottommenu"
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+    </com.m2comm.voting.BottomMenu>
+
+</LinearLayout>

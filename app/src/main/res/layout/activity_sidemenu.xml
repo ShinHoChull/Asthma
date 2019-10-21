@@ -1,0 +1,86 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="#ffffff"
+            android:layout_height="50dp">
+            <ImageView
+                android:src="@drawable/ic_home"
+                android:id="@+id/home"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="40dp"
+                android:layout_height="40dp">
+            </ImageView>
+
+            <TextView
+                android:textSize="16dp"
+                android:textColor="#1b1e23"
+                android:text="Home"
+                android:id="@+id/home2"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"></LinearLayout>
+
+            <ImageView
+                android:src="@drawable/btn_set"
+                android:id="@+id/setting"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="34dp"
+                android:layout_height="34dp">
+            </ImageView>
+            <ImageView
+                android:src="@drawable/btn_logout"
+                android:id="@+id/login"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="34dp"
+                android:layout_height="34dp">
+            </ImageView>
+            <ImageView
+                android:src="@drawable/btn_x"
+                android:id="@+id/close"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="34dp"
+                android:layout_height="34dp">
+            </ImageView>
+        </LinearLayout>
+
+    <LinearLayout
+        android:background="#626879"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"></LinearLayout>
+
+
+        <com.m2comm.module.AnimatedExpandableListView
+            android:background="#ffffff"
+            android:divider="#d6d6d6"
+            android:dividerHeight="1dp"
+            android:childDivider="#f4f4f4"
+            android:groupIndicator="@null"
+            android:id="@+id/menu_list"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+        </com.m2comm.module.AnimatedExpandableListView>
+
+
+
+</LinearLayout>

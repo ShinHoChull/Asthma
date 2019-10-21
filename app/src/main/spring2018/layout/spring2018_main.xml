@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/spring2018_bg"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.m2comm.module.MyLinearLayout
+        app:h="50"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.m2comm.module.MixImage
+            app:mixcolor="#313131"
+            app:w="50"
+            app:h="50"
+            android:id="@+id/menu"
+            android:src="@drawable/btn_d_menu1"
+            android:layout_height="50dp"
+            android:layout_width="50dp">
+        </com.m2comm.module.MixImage>
+
+        <com.m2comm.module.MixImage
+            app:mixcolor="#313131"
+            app:w="50"
+            app:h="50"
+            android:id="@+id/home"
+            android:src="@drawable/btn_d_home1"
+            android:layout_height="50dp"
+            android:layout_width="50dp">
+        </com.m2comm.module.MixImage>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="1dp"
+            android:layout_height="1dp">
+
+        </LinearLayout>
+
+        <com.m2comm.module.MixImage
+            app:mixcolor="#313131"
+            app:w="50"
+            app:h="50"
+            android:id="@+id/search"
+            android:src="@drawable/btn_d_search1"
+            android:layout_height="50dp"
+            android:layout_width="50dp">
+        </com.m2comm.module.MixImage>
+
+    </com.m2comm.module.MyLinearLayout>
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+    </LinearLayout>
+
+    <com.m2comm.module.MixImage
+        android:layout_gravity="right"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        app:w="193"
+        app:h="209"
+        android:src="@drawable/spring2018_title"
+        android:layout_height="209dp"
+        android:layout_width="193dp">
+
+    </com.m2comm.module.MixImage>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.m2comm.module.MixImage
+            app:w="117"
+            app:h="104"
+            android:id="@+id/menu1"
+            android:src="@drawable/spring2018_menu1"
+            android:layout_height="104dp"
+            android:layout_width="117dp">
+        </com.m2comm.module.MixImage>
+
+        <com.m2comm.module.MixImage
+            app:h="104"
+            app:w="102"
+            android:id="@+id/menu2"
+            android:src="@drawable/spring2018_menu2"
+            android:layout_height="104dp"
+            android:layout_width="102dp">
+        </com.m2comm.module.MixImage>
+
+        <com.m2comm.module.MixImage
+            app:h="104"
+            app:w="107"
+            android:id="@+id/menu3"
+            android:src="@drawable/spring2018_menu3"
+            android:layout_height="104dp"
+            android:layout_width="107dp">
+        </com.m2comm.module.MixImage>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.m2comm.module.MixImage
+            app:w="117"
+            app:h="104"
+            android:id="@+id/menu4"
+            android:src="@drawable/spring2018_menu4"
+            android:layout_height="104dp"
+            android:layout_width="117dp">
+        </com.m2comm.module.MixImage>
+
+        <com.m2comm.module.MixImage
+            app:h="104"
+            app:w="102"
+            android:id="@+id/menu5"
+            android:src="@drawable/spring2018_menu5"
+            android:layout_height="104dp"
+            android:layout_width="102dp">
+        </com.m2comm.module.MixImage>
+
+        <com.m2comm.module.MixImage
+            app:h="104"
+            app:w="107"
+            android:id="@+id/menu6"
+            android:src="@drawable/spring2018_menu6"
+            android:layout_height="104dp"
+            android:layout_width="107dp">
+        </com.m2comm.module.MixImage>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+    </LinearLayout>
+
+    <com.m2comm.module.MixImage
+        app:h="62"
+        android:id="@+id/voting"
+        android:background="@drawable/fall2017_btn_voting"
+        android:layout_height="62dp"
+        android:layout_width="match_parent">
+    </com.m2comm.module.MixImage>
+
+</LinearLayout>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="#2b2b2b"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/btn_menu"
+            android:id="@+id/menu"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/home"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="2019 Autumn Congress of KAAACI"
+            android:textSize="14dp"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:layout_width="1dp"
+            android:layout_height="40dp">
+
+        </TextView>
+        <LinearLayout
+            android:visibility="invisible"
+            android:orientation="vertical"
+            android:background="@drawable/ic_search"
+            android:id="@+id/search"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.m2comm.module.MyLinearLayout
+                android:visibility="gone"
+                android:orientation="horizontal"
+                android:id="@+id/top_menu"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <com.m2comm.module.MixImage
+                    android:id="@+id/back"
+                    app:mixcolor="#282828"
+                    android:src="@drawable/btn_w_back"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:id="@+id/top_menu_txt"
+                    android:text="Program at a Glance"
+                    android:textSize="14dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_width="1dp"
+                    android:layout_height="40dp" />
+
+
+                <com.m2comm.module.MixImage
+                    android:layout_width="40dp"
+                    android:layout_height="40dp" />
+
+
+            </com.m2comm.module.MyLinearLayout>
+
+            <com.m2comm.module.MyLinearLayout
+                android:id="@+id/day_type1"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+            </com.m2comm.module.MyLinearLayout>
+            <com.m2comm.module.MyLinearLayout
+                android:gravity="center"
+                android:visibility="gone"
+                android:id="@+id/day_type2"
+                android:background="#e3e5ec"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+                <TextView
+                    android:id="@+id/month"
+                    android:textColor="#323c57"
+                    android:textSize="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <com.m2comm.module.MyLinearLayout
+                    android:id="@+id/days"
+                    android:gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp">
+
+
+
+
+
+                </com.m2comm.module.MyLinearLayout>
+
+            </com.m2comm.module.MyLinearLayout>
+
+            <com.m2comm.module.M2WebView
+                android:layout_weight="1"
+                android:layout_marginBottom="40dp"
+                android:id="@+id/webview"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+
+            <com.m2comm.module.MyLinearLayout
+                android:visibility="gone"
+                android:background="#ffffff"
+                android:id="@+id/bottom_layout"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+            </com.m2comm.module.MyLinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/glance_overlay"
+            android:background="#aa000000"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.m2comm.module.MixImage
+                app:w="91"
+                app:h="122"
+                android:src="@drawable/glance_icon"
+                android:layout_width="90dp"
+                android:layout_height="120dp" />
+
+            <TextView
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:text="Touch on a session to check the details.\nUse your fingers to zoom in/out."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <com.m2comm.module.MixImage
+            app:h="62"
+            android:id="@+id/voting"
+            android:layout_gravity="bottom"
+            android:background="@drawable/fall2017_btn_voting"
+            android:layout_height="62dp"
+            android:layout_width="match_parent">
+        </com.m2comm.module.MixImage>
+    </FrameLayout>
+
+</LinearLayout>

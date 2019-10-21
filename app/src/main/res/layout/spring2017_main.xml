@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg5"
+    android:id="@+id/bg"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/ic_menu"
+            android:id="@+id/menu"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/ic_home"
+            android:id="@+id/home"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="1dp"
+            android:layout_height="40dp">
+            
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/ic_search"
+            android:id="@+id/search"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="30dp"
+        android:layout_width="match_parent">
+    </LinearLayout>
+    
+    <LinearLayout
+        android:background="@drawable/txt_title"
+        android:layout_width="204.5dp"
+        android:layout_height="84dp" />
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/txt_info"
+        android:layout_width="230dp"
+        android:layout_height="41dp" />
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/menu1"
+            android:id="@+id/menu1"
+            android:layout_width="117dp"
+            android:layout_height="104dp">
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/menu2"
+            android:id="@+id/menu2"
+            android:layout_width="102dp"
+            android:layout_height="104dp">
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/menu3"
+            android:id="@+id/menu3"
+            android:layout_width="107dp"
+            android:layout_height="104dp">
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/menu4"
+            android:id="@+id/menu4"
+            android:layout_width="117dp"
+            android:layout_height="104dp">
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/menu5"
+            android:id="@+id/menu5"
+            android:layout_width="102dp"
+            android:layout_height="104dp">
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/menu6"
+            android:id="@+id/menu6"
+            android:layout_width="107dp"
+            android:layout_height="104dp">
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="10dp"
+        android:layout_width="match_parent">
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/voting"
+        android:background="@drawable/btn_voting"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"></LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/fail2016_bg"
+    android:id="@+id/bg"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/ic_backw"
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="40dp"
+        android:layout_width="match_parent">
+    </LinearLayout>
+    
+    <LinearLayout
+        android:background="@drawable/fail2016_txt_title"
+        android:layout_width="204.5dp"
+        android:layout_height="84dp" />
+    <LinearLayout
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/fail2016_txt_info"
+        android:layout_width="225dp"
+        android:layout_height="14dp">
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="@drawable/fail2016_txt_subtit"
+        android:layout_width="326dp"
+        android:layout_height="56dp"></LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/fail2016_txt_q2"
+        android:id="@+id/text1"
+        android:layout_width="326dp"
+        android:layout_height="100dp"></LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:background="@drawable/input_name"
+            android:layout_width="280dp"
+            android:layout_height="39dp">
+            <EditText
+                android:id="@+id/name"
+                android:background="#00ffffff"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:hint="성명을 입력해 주세요"
+                android:layout_marginLeft="30dp"
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/input_mail"
+            android:layout_width="280dp"
+            android:layout_height="39dp">
+            <EditText
+                android:id="@+id/email"
+                android:background="#00ffffff"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:hint="이메일을 입력해 주세요"
+                android:layout_marginLeft="30dp"
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/fail2016_btn_ok"
+            android:id="@+id/ok"
+            android:layout_width="100dp"
+            android:layout_height="40dp">
+        </TextView>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+    </LinearLayout>
+
+
+</LinearLayout>

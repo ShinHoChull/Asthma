@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="#2b2b2b"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/btn_menu"
+            android:id="@+id/menu"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/home"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="대한천식알레르기학회"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:layout_width="1dp"
+            android:layout_height="40dp">
+
+        </TextView>
+        <LinearLayout
+            android:visibility="invisible"
+            android:orientation="vertical"
+            android:background="@drawable/ic_search"
+            android:id="@+id/search"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/letter"
+        android:visibility="gone"
+        android:background="#333b45"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/btn_back"
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="뉴스레터"
+            android:textSize="17dp"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:layout_width="1dp"
+            android:layout_height="30dp">
+
+        </TextView>
+        <LinearLayout
+            android:visibility="invisible"
+            android:orientation="vertical"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+
+
+    <com.m2comm.module.M2WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    
+</LinearLayout>

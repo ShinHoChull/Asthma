@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.m2comm.asthma">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <permission android:name="com.m2comm.asthma.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.m2comm.asthma.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:protectionLevel="signature" />
+    <permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:protectionLevel="signature" />
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+
+
+    <application
+        android:hardwareAccelerated="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity android:name=".MainActivity" android:screenOrientation="portrait">
+
+        </activity>
+
+
+        <activity android:name="com.m2comm.asthma.Spring2017.Spring2017_MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.m2comm.asthma.Spring2017.Spring2017_LoginActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.m2comm.asthma.Spring2017.Spring2017_SettingActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".ImageViewActivity" android:theme="@style/Transparent">
+        </activity>
+        <activity android:name=".Barcode"  android:screenOrientation="portrait">
+    </activity>
+        <activity android:name=".SettingActivity"  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".WebPage"  android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".LoginActivity" android:theme="@style/Transparent">
+        </activity>
+
+        <activity android:name="com.m2comm.voting.Agenda" android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.m2comm.voting.Feedback"  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.m2comm.voting.Lecture" android:theme="@style/Transparent" >
+        </activity>
+        <activity android:name="com.m2comm.voting.Question" android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.m2comm.voting.Question2"  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.m2comm.voting.Voting" android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.m2comm.voting.SelectedNumber" android:theme="@style/Transparent" >
+        </activity>
+
+
+        <activity android:name="com.m2comm.asthma.Spring2017.Spring2017_SideMenu"
+            android:theme="@style/Transparent"></activity>
+        <activity android:name="com.m2comm.asthma.Spring2017.Spring2017_WebPage"
+            android:theme="@style/Transparent"></activity>
+
+
+        <activity android:name="com.m2comm.asthma.Fall2017.Fall2017_MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.m2comm.asthma.Fall2017.Fall2017_IntroActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.m2comm.asthma.Fall2017.Fall2017_LoginActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.m2comm.asthma.Fall2017.Fall2017_SettingActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.m2comm.asthma.Fall2017.Fall2017_SideMenu"
+            android:theme="@style/Transparent"></activity>
+        <activity android:name="com.m2comm.asthma.Fall2017.Fall2017_WebPage"
+            android:theme="@style/Transparent"></activity>
+
+        <activity android:name="com.m2comm.asthma.Fall2017.Fall2017_BarcodeActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+        <activity android:name="com.m2comm.asthma.Fall2018.Fall2018_MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.m2comm.asthma.Fall2018.Fall2018_IntroActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.m2comm.asthma.Fall2018.Fall2018_LoginActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.m2comm.asthma.Fall2018.Fall2018_SettingActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.m2comm.asthma.Fall2018.Fall2018_SideMenu"
+            android:theme="@style/Transparent"></activity>
+        <activity android:name="com.m2comm.asthma.Fall2018.Fall2018_WebPage"
+            android:theme="@style/Transparent"></activity>
+
+        <activity android:name="com.m2comm.asthma.Fall2018.Fall2018_BarcodeActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+        <activity android:name="com.m2comm.asthma.Fail2016.Fail2016_MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.m2comm.asthma.Fail2016.Fail2016_LoginActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.m2comm.asthma.Fail2016.Fail2016_SideMenu"
+            android:theme="@style/Transparent"></activity>
+        <activity android:name="com.m2comm.asthma.Fail2016.Fail2016_WebPage"
+            android:theme="@style/Transparent"></activity>
+
+
+        <activity android:name="com.m2comm.asthma.Spring2018.Spring2018_MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.m2comm.asthma.Spring2018.Spring2018_IntroActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.m2comm.asthma.Spring2018.Spring2018_LoginActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.m2comm.asthma.Spring2018.Spring2018_SettingActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.m2comm.asthma.Spring2018.Spring2018_SideMenu"
+            android:theme="@style/Transparent"></activity>
+        <activity android:name="com.m2comm.asthma.Spring2018.Spring2018_WebPage"
+            android:theme="@style/Transparent"></activity>
+
+        <activity android:name="com.m2comm.asthma.Spring2018.Spring2018_BarcodeActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+        <activity android:name="com.m2comm.asthma.Spring2019.Spring2019_MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.m2comm.asthma.Spring2019.Spring2019_IntroActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.m2comm.asthma.Spring2019.Spring2019_LoginActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.m2comm.asthma.Spring2019.Spring2019_SettingActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.m2comm.asthma.Spring2019.Spring2019_SideMenu"
+            android:theme="@style/Transparent"></activity>
+        <activity android:name="com.m2comm.asthma.Spring2019.Spring2019_WebPage"></activity>
+        <activity android:name="com.m2comm.asthma.Spring2019.WebPopupActivity"
+            android:theme="@style/Transparent"></activity>
+        <activity android:name="com.m2comm.asthma.Spring2019.Spring2019_BarcodeActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <!--Fall2019-->
+        <activity android:name="com.m2comm.asthma.Fall2019.Fall2019_MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.m2comm.asthma.Fall2019.Fall2019_IntroActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.m2comm.asthma.Fall2019.Fall2019_LoginActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.m2comm.asthma.Fall2019.Fall2019_SettingActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.m2comm.asthma.Fall2019.Fall2019_SideMenu"
+            android:theme="@style/Transparent"></activity>
+        <activity android:name="com.m2comm.asthma.Fall2019.Fall2019_WebPage"></activity>
+        <activity android:name="com.m2comm.asthma.Fall2019.Fall2019_WebPopupActivity"
+            android:theme="@style/Transparent"></activity>
+        <activity android:name="com.m2comm.asthma.Fall2019.Fall2019_BarcodeActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <!--Fall2019 End-->
+
+
+        <activity android:name=".SideMenu" android:theme="@style/Transparent"></activity>
+
+        <activity android:name=".CalendarActivity"  android:screenOrientation="portrait">
+        </activity>
+
+
+        <activity android:name="com.m2comm.module.PdfActivity" ></activity>
+
+        <activity android:name=".IntroActivity"  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.example.gcm" />
+            </intent-filter>
+        </receiver>
+
+
+
+        <service android:name=".GcmIntentService" />
+
+    </application>
+
+</manifest>

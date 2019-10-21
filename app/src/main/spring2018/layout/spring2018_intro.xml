@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/fall2017_bg"
+    android:id="@+id/bg"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:orientation="vertical"
+            android:background="@drawable/fall2017_ic_backw"
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="40dp"
+        android:layout_width="match_parent">
+    </LinearLayout>
+    
+    <ImageView
+        android:background="@drawable/fall2017_txt_title"
+        android:layout_width="261dp"
+        android:layout_height="85dp" />
+    <ImageView
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/fall2017_txt_info"
+        android:layout_width="220dp"
+        android:layout_height="40.5dp">
+    </ImageView>
+
+
+    <ImageView
+        android:background="@drawable/fall2017_txt_q1"
+        android:layout_width="326dp"
+        android:layout_height="100dp"></ImageView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:layout_width="326dp"
+        android:layout_height="160dp">
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:background="@drawable/fall2017_btn_yes"
+            android:id="@+id/yes"
+            android:layout_width="124.5dp"
+            android:layout_height="125dp">
+        </ImageView>
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/fall2017_btn_no"
+            android:id="@+id/no"
+            android:layout_width="124.5dp"
+            android:layout_height="125dp">
+        </ImageView>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+    </LinearLayout>
+
+
+</LinearLayout>

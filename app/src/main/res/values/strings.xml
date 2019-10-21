@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">대한천식알레르기학회</string>
+
+
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="toggle_links" translatable="false">Highlight and enable links</string>
+    <string name="search_forwards" translatable="false">Search forwards</string>
+    <string name="cannot_open_file_Path" translatable="false">Cannot open file: %1$s</string>
+    <string name="fill_out_text_field" translatable="false">Fill out text field</string>
+    <string name="okay" translatable="false">Okay</string>
+    <string name="choose_value" translatable="false">Choose value</string>
+    <string name="not_supported" translatable="false">Not supported</string>
+    <string name="searching_" translatable="false">Searching&#8230;</string>
+    <string name="text_not_found" translatable="false">Text not found</string>
+    <string name="no_further_occurrences_found" translatable="false">No further occurrences found</string>
+    <string name="dismiss" translatable="false">Dismiss</string>
+    <string name="yes" translatable="false">Yes</string>
+    <string name="no" translatable="false">No</string>
+    <string name="cannot_open_document" translatable="false">Cannot open document</string>
+    <string name="cannot_open_document_Reason" translatable="false">Cannot open document: %1$s</string>
+    <string name="cannot_open_buffer" translatable="false">Cannot open buffer</string>
+    <string name="enter_password" translatable="false">Enter password</string>
+    <string name="entering_reflow_mode" translatable="false">Entering reflow mode</string>
+    <string name="leaving_reflow_mode" translatable="false">Leaving reflow mode</string>
+    <string name="format_currently_not_supported" translatable="false">Format currently not supported</string>
+    <string name="print_failed" translatable="false">Print failed</string>
+    <string name="select_text" translatable="false">Select text</string>
+    <string name="copy_text" translatable="false">copy text</string>
+    <string name="no_text_selected" translatable="false">No text selected</string>
+    <string name="copied_to_clipboard" translatable="false">Copied to clipboard</string>
+    <string name="nothing_to_save" translatable="false">Nothing to save</string>
+    <string name="document_has_changes_save_them_" translatable="false">Document has changes. Save them?</string>
+    <string name="venue" translatable="false">Venue <![CDATA["&"]]> Transportation</string>
+    <string name="exhi" translatable="false"> Exhibitors <![CDATA["&"]]> Ads</string>
+
+
+
+    <string name="quest_success">질문이 성공적으로 제출되었습니다.</string>
+    <string name="quest_message">강의 내용 중 궁금하신 점을 질문해 주세요.</string>
+    <string name="quest_no">질문을 작성해 주세요.</string>
+    <string name="lecture_no">강의를 선택해주세요.</string>
+    <string name="lecture_def">선택하여 주시기 바랍니다.</string>
+    <string name="network_error">통신 상태가 원활하지 않습니다.\n잠시 후 다시 시도해 주세요.</string>
+    <string name="voting_message">문제를 보시고 아래 번호를 선택해 주세요.</string>
+    <string name="voting_overlap">이미 답변을 제출하셨습니다..</string>
+    <string name="voting_no">퀴즈가 진행 중이 아닙니다.</string>
+
+</resources>
